@@ -1,0 +1,76 @@
+body{
+    background-image: url("../meditation.png");
+    background-size: cover;
+    height:600px;
+    width:100%;
+}
+.left{
+    display: inline-block;
+    position:absolute;
+    left: 60px;
+    top: 20px;
+}
+.mid{
+    display:block;
+    width:40%;
+    margin:20px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 43px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color:black;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-family: 'Anton', sans-serif;
+}
+.navbar li a:hover{
+    color:rgb(0, 122, 128)
+}
+.left div{
+    text-align: center;
+    color:black;
+    font-size:30px;
+    font-family: 'Caprasimo', cursive;
+}
+.btn{
+    margin:0px 9px;
+    padding:4px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid steelblue;
+}
+.btn:hover{
+    background-color: blue;
+}
+.Centre-name h1{
+    text-align: center;
+}
+#form-fit{
+    text-align: center;
+}
+.form-fit input{
+    text-align:center;
+    width:300px;
+    font-family: 'Source Code Pro', monospace;
+    border:2px inset seagreen;
+    padding:1px 10px;
+    margin:0px 5px;
+}
+.Centre-name{
+    margin: 106px 80px;
+    padding:75px;
+}
+.form-fit>.btn{
+    width:75%;
+    margin:15px auto;
+    padding:auto 15px;
+}
